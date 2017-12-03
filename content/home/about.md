@@ -10,31 +10,33 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Complex diseases",
+    "Machine learning",
+    "Networks",
+    "Missing heritability",
+    "GWAS"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "Master in Bioinformatics"
+  institution = "Universitat Pompeu Fabra"
+  year = 2014
+
+[[education.courses]]
+  course = "BSc in Biochemistry"
+  institution = "Autonomous University of Barcelona"
   year = 2012
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc in Biotechnology"
+  institution = "Autonomous University of Barcelona"
+  year = 2012
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student at Center for Computational Biology (CBIO), a joint research unit between Mines ParisTech, Institut Curie and INSERM. CBIO is dedicated to epidemiology, bioinformatics and computational systems biology of cancer. I am co-supervised by Chloé-Agathe Azencott and Véronique Stoven. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+The big question of my thesis is the missing heritability of complex diseases, that is, the discordance between the estimated genetic determination of a phenotype, and the actual genetic factors we can associate with it. To tackle it, I incorporate prior knowledge to GWAS, namely biological networks that give a context to every SNP. In consequence, we can carry out context-dependent statistics, fine tuning the significance threshold for each variant. We hope that this will allow us to find common SNPs with low effect sizes that would be difficult to detect by traditional GWAS. Currently we are applying these approaches to find new biomarkers of familial breast cancer.
